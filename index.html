@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+        <title>Convert audio to text</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        
+        
+        <div id="rectangle" >
+            <div class="container">
+                 <div class="Language"> 
+               <!-- <button  id="English_Buttons" type="button" onclick="Selected_Language('English')">English</button> -->
+               <button  id="Arabic_Buttons" type="button" onclick="Selected_Language('arabic')">Arabic</button>
+                <button id="connect-usb" class = "btn btn-danger btn-block" onclick="onConnectUsb()" > connects </button>
+             </div>
+                <div class="inputBx">
+                    <input  type="text" autofocus>
+                            <div class="icon"> 
+                                <i id="tt" class="fas fa-microphone"></i>
+                            </div>
+                </div>
+            </div>
+    
+        </div>
+
+    </script></body>
+
+    <script src="./main.js"></script>
+    <script src="arduino.js"></script>
+
+</html>
